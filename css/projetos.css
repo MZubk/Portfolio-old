@@ -6,13 +6,22 @@
 
 .principal-projetos {
     margin: 0 auto;
-    background: linear-gradient(#FEFEFE, #FFEFD5) !important;
+    background: linear-gradient(45deg,#555555, #000000) !important;
     min-height: 85.5vh;
+}
+
+.text-2 {
+    text-shadow: 1.5px 1px 1px #03172F;
+    color: #D76300;
+}
+
+.text-3 {
+    text-shadow: 1.5px 1px 10px #03172F;
+    color: #FEFEFE;
 }
 
 .titulo-projetos {
     padding: 60px 0 0 60px;
-    text-shadow: 1.5px 2px 8px #03172F;
     box-sizing: content-box;
     max-width: 500px;
 }

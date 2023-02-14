@@ -1,14 +1,21 @@
+:root {
+    --branco-principal: #FEFEFE;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #FFEFD5;
+    --cor-texto-titulo: #8D4729;
+    --cor-texto-secundario: #03172F;
+    --font-principal: 'inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
 .body {
     min-height: 100vh;
     font-family: 'Source Code Pro', 'Montserrat', monospace, sans-serif;
 }
 
-.header {
-    background: #FEFEFE !important;
-}
-
 .principal {
-    background: linear-gradient(#FEFEFE, #FFEFD5) !important;
+    background: linear-gradient(45deg,#555555, #000000) !important;
 }
 
 .home {
@@ -24,7 +31,7 @@
     margin: 60px;
     font-family: 'Source Code Pro';
     font-weight: bolder;
-    color: #8D4729;
+    color: #D76300;
 }
 
 .text-citacao-1 {
@@ -42,6 +49,7 @@
 .sobre {
     margin: 2.6rem 5rem;
     text-align: justify;
+    color: #FFE7B5;
 }
 
 .text-sobre {
@@ -56,8 +64,9 @@
 
 .text-contato {
     text-shadow: 1.5px 2.5px 8px #03172F;
-    font-family: 'Open Sans';
+    font-family: 'monospace';
     font-weight: bold;
+    color: #FEFEFE;
 }
 
 
