@@ -1,4 +1,4 @@
-.body {    
+.body {
     font-family: 'Source Code Pro', 'Montserrat', monospace, sans-serif;
     height: 100%;
     width: 100%;
@@ -6,7 +6,7 @@
 
 .principal-projetos {
     margin: 0 auto;
-    background: linear-gradient(45deg,#555555, #000000) !important;
+    background: linear-gradient(45deg, #555555, #000000) !important;
     min-height: 85.5vh;
 }
 
@@ -36,7 +36,7 @@
 .projetos-cartao {
     width: 18rem;
     max-width: 300px;
-    margin: 16px; 
+    margin: 16px;
     justify-content: center;
     align-items: center;
 }
@@ -47,14 +47,14 @@
     box-shadow: 5px 5px 20px #03172F;
 }
 
-@media screen and (max-device-width: 900px) {  
+@media screen and (max-device-width: 900px) {
 
     .principal-projetos {
         min-height: none;
         min-width: none;
     }
 
-    .titulo-projetos {        
+    .titulo-projetos {
         padding: 5px 5px 5px 20px;
         min-height: none;
         min-width: none;
