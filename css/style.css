@@ -16,9 +16,6 @@
 
 .principal {
     background: linear-gradient(45deg, #555555, #000000) !important;
-}
-
-.home {
     display: grid;
     grid-auto-columns: 1fr;
 }
