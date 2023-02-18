@@ -1,17 +1,6 @@
-:root {
-    --branco-principal: #FEFEFE;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #FFEFD5;
-    --cor-texto-titulo: #8D4729;
-    --cor-texto-secundario: #03172F;
-    --font-principal: 'inter';
-    --botao-azul-efeito: #3c92fa;
-}
-
 .body {
     min-height: 100vh;
-    font-family: 'Source Code Pro', 'Montserrat', monospace, sans-serif;
+    font-family: 'Source Code Pro', 'Montserrat', 'monospace', 'sans-serif';
 }
 
 .principal {
@@ -21,27 +10,22 @@
 }
 
 .text {
-    text-shadow: 1.5px 1px 1px #03172F;
+    text-shadow: 2.5px 3px 2px #03172F;
 }
 
 .apresentacao {
     margin: 60px 60px 10px 60px;
-    font-family: 'Source Code Pro';
+    font-family: 'inter';
     font-weight: bolder;
     color: #D76300;
     box-sizing: border-box;
 }
 
-.text-citacao-1 {
-    color: #03172F;
-    font-size: 18px;
-    font-weight: bolder;
-    font-family: 'Open Sans';
-}
-
-.text-citacao-2 {
+.text-citacao {
     color: #458C91;
+    text-shadow: 2.5px 2px 2px #03172F;
     font-style: oblique;
+    font-family: 'Source Code Pro';
 }
 
 .sobre {
@@ -100,6 +84,7 @@ footer {
     color: #FFFFFF;
     font-size: 11p;
     margin: 20px 0 0;
+    font-family: 'inter';
 }
 
 @media screen and (max-device-width: 900px) {
