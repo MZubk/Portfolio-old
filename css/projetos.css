@@ -1,13 +1,13 @@
 .body {
-    font-family: 'Source Code Pro', 'Montserrat', monospace, sans-serif;
-    height: 100%;
-    width: 100%;
+    font-family: 'Source Code Pro', 'Montserrat', monospace, sans-serif;    
 }
 
 .principal-projetos {
-    margin: 0 auto;
     background: linear-gradient(45deg, #555555, #000000) !important;
-    min-height: 85.5vh;
+}
+
+.card-largura {
+    max-width: 19rem !important;
 }
 
 .text-2 {
@@ -23,50 +23,10 @@
 .titulo-projetos {
     padding: 60px 0 0 60px;
     box-sizing: content-box;
-    max-width: 500px;
-}
-
-.projetos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.projetos-cartao {
-    width: 18rem;
-    max-width: 300px;
-    margin: 16px;
-    justify-content: center;
-    align-items: center;
 }
 
 .card:hover {
     border-color: #8D4729;
     color: #093657;
     box-shadow: 5px 5px 20px #03172F;
-}
-
-@media screen and (max-device-width: 900px) {
-
-    .principal-projetos {
-        min-height: none;
-        min-width: none;
-    }
-
-    .titulo-projetos {
-        padding: 5px 5px 5px 20px;
-        min-height: none;
-        min-width: none;
-        display: block;
-    }
-
-    .projetos {
-        padding: none;
-        gap: 16px;
-        grid-area: span 2;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        flex-wrap: wrap;
-        justify-content: none;
-    }
 }
