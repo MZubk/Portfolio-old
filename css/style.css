@@ -1,59 +1,55 @@
 .body {
-    min-height: 100vh;
     font-family: 'Source Code Pro', 'Montserrat', 'monospace', 'sans-serif';
+}
+
+.nav--link:hover {
+    transform: scale(1.1);
 }
 
 .principal {
     background: linear-gradient(45deg, #555555, #000000) !important;
     display: grid;
     grid-auto-columns: 1fr;
+    min-height: 100vh;
 }
 
+/*texto*/
 .text {
     text-shadow: 2.5px 3px 2px #03172F;
+    text-align: justify;
+    color: #FFE7B5;
 }
 
-.apresentacao {
-    margin: 60px 60px 10px 60px;
-    font-family: 'inter';
+.text-principal {
+    text-shadow: 2.5px 3px 2px #03172F;
+    font-family: 'Source Code Pro';
     font-weight: bolder;
     color: #D76300;
     box-sizing: border-box;
 }
 
-.text-citacao {
+.text-secundario {
     color: #458C91;
     text-shadow: 2.5px 2px 2px #03172F;
-    font-style: oblique;
-    font-family: 'Source Code Pro';
+    font-family: 'Montserrat';
+}
+
+.text-link:hover {
+    color: #D76300;
+}
+
+.apresentacao {
+    margin: 60px 60px 10px 60px;
 }
 
 .sobre {
     margin: 2.6rem 5rem;
-    text-align: justify;
-    color: #FFE7B5;
-}
 
-.text-sobre {
-    text-shadow: 1px 2px 20px #03172F;
-    font-family: 'Source Code Pro';
 }
 
 .contato {
     text-align: start;
     margin: 0.28rem 2.5rem;
-}
-
-.text-contato {
-    text-shadow: 1.5px 2.5px 8px #03172F;
-    font-family: 'monospace';
-    font-weight: bold;
-    color: #FEFEFE;
-}
-
-
-.contato--link {
-    text-decoration: none !important;
 }
 
 .github {
@@ -68,13 +64,9 @@
     font-size: 22px;
 }
 
-.whatsapp {
-    color: #25D366;
-    font-weight: bold;
-    font-size: 20px;
-}
-
 footer {
+    position: absolute;
+    width: 100%;
     background-color: black !important;
     padding: 1.125rem 0;
     text-align: center;
