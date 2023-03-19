@@ -38,12 +38,12 @@
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link text-white text-monospace nav--link p-0" href="index.html"><img
-                                src="./img/home.png" height="40" alt="Projetos"><span class="sr-only">(Página
+                                src="./img/bt_home.png" height="40" alt="Projetos"><span class="sr-only">(Página
                                 atual)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link text-white text-monospace nav--link p-0" href="projetos.html"><img
-                                src="./img/projetos.png" height="40" alt="Projetos"><span class="sr-only">(Página
+                                src="./img/bt_projetos.png" height="40" alt="Projetos"><span class="sr-only">(Página
                                 atual)</span></a>
                     </li>
                 </ul>
@@ -54,67 +54,84 @@
     <!--/header-->
 
     <!--main-->
-    <main class="principal">
+    <main class="principal container-fluid">
         <!--apresentacao-->
-        <section class="apresentacao">
-            <div>
-                <h1 class="text-principal">Olá, sou o <br>Murillo Zubk, <br>Web Developer.</h1>
-            </div>
-            <div class="text-secundario">
-                <p>Apaixonado por tecnologia,</br> e como a tecnologia pode mudar e melhorar
-                    a vida das pessoas.</p>
+        <section class="apresentacao row">
+            <div class="col">
+                <div class="">
+                    <h1 class="text-titulo">Olá, sou o <br>Murillo Zubk, <br>Web Developer.</h1>
+                </div>
+                <div class="text-secundario">
+                    <p class="citacao">"Apaixonado por tecnologia,</br> e como a tecnologia pode mudar e melhorar
+                        a vida das pessoas."</p>
+                </div>
             </div>
         </section>
         <!--/apresentacao-->
 
         <!--sobre-->
         <section class="sobre">
-            <article>
-                <h4 class="text-secundario">Sobre mim:</h4>
-                <p class="text">Sempre tive curiosidade em entender como as coisas funcionavam. Gostava de desmontar meus
-                    brinquedos
-                    e outros dispositivos eletrônicos para ver como eram. Foi quando fiz um daqueles curso de
-                    informática básica junto com montagem e manutenção de PC que conheci a programação, mas comecei
-                    estudando sozinho assistindo a vídeos no YouTube e pesquisando informações na internet.
-                    <br>Atualmente
-                    estou estudando JavaScript, HTML e CSS na plataforma Alura, para desenvolvimento de sites e
-                    aplicativos da web. Quero continuar estudando e praticando programação, aprimorando minhas
-                    habilidades e buscar oportunidades de carreira na área de tecnologia.
-                </p>
-            </article>
-            <article>
-                <h4 class="text-secundario">Tecnologias que eu utilizo:</h4>
+            <div>
+                <article>
+                    <h4 class="text-titulo">Sobre mim:</h4>
+                    <p class="text-sobre">Sempre fui fascinado pelo funcionamento das coisas. Desde criança, eu
+                        desmontava
+                        meus
+                        brinquedos e outros aparelhos
+                        eletrônicos para explorar seus componentes.
+                        Descobri a programação quando fiz um curso de informática básica com montagem e manutenção de PC
+                        e
+                        me apaixonei pela
+                        área.
+                        Desde então, venho estudando por conta própria através de vídeos no YouTube e pesquisas na
+                        internet.
+                        Atualmente estou aprendendo JavaScript, HTML e CSS na plataforma Alura, com o objetivo de criar
+                        sites e aplicativos web.
+                        Meu sonho é continuar me aperfeiçoando na programação e buscar oportunidades de carreira no
+                        setor de
+                        tecnologia.
+                    </p>
+                </article>
+            </div>
+            <div>
+                <article>
+                    <div class="tecnologias">
+                        <h4 class="text-titulo">Tecnologias que eu utilizo:</h4>
 
-                <img aling="center" alt="HTML5"
-                    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-                <img aling="center" alt="CSS3"
-                    src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+                        <img aling="center" alt="Badge HTML5"
+                            src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                        <img aling="center" alt="Badge CSS3"
+                            src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
-                <img aling="center" alt="JavaScript"
-                    src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+                        <img aling="center" alt="Badge JavaScript"
+                            src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 
-                <img aling="center" alt="Boostrap"
-                    src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
-            </article>
+                        <img aling="center" alt="Badge Boostrap"
+                            src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+                    </div>
+                </article>
+            </div>
         </section>
         <!--/sobre-->
         <!--contato-->
-        <div class="contato">
-            <h4 class="text-secundario">Contato:</h4>
-            <ul class="contato--link">
-                <li class="text">Github:
-                    <i class="fa fa-github github-icon" style="color: white;"></i>
-                    <a class="text text-link" href="https://github.com/MZubk" target="_blank">
-                        <p>github.com/mzubk</p>
-                    </a>
-                </li>
-                <li class="text">Email: <i class="fa fa-envelope email-icon"></i>
-                    <a class="text text-link" href="mailto:mzubk.dev@gmail.com" target="_blank">
-                        <p>mzubk.dev@gmail.com</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <section>
+            <div class="contato">
+                <h4 class="text-titulo">Contato:</h4>
+                <ul class="contato--link">
+                    <li class="text-secundario">Github:
+                        <i class="fa fa-github github-icon" style="color: white;"></i>
+                        <a class="text-secundario text-link" href="https://github.com/MZubk" target="_blank">
+                            <p>github.com/mzubk</p>
+                        </a>
+                    </li>
+                    <li class="text-secundario">Email: <i class="fa fa-envelope email-icon"></i>
+                        <a class="text-secundario text-link" href="mailto:mzubk.dev@gmail.com" target="_blank">
+                            <p>mzubk.dev@gmail.com</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
         <!--/contato-->
     </main>
     <!--/main-->
@@ -129,13 +146,13 @@
     <script src="https://kit.fontawesome.com/2cd3f9d49d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="./js/script.js"></script>
     <!--/js-->
 </body>

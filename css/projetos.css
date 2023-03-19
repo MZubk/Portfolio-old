@@ -1,10 +1,22 @@
+:root {
+    --main-cinza: #4E4D4E;
+    --main-preto: #242023;
+    --main-branco: #F0F2F2;
+    --main-azul: #049DBF;
+    --bt-azul: #194759;
+    --sombra: #03172F;
+}
+
 .body {
     font-family: 'Source Code Pro', 'Montserrat', monospace, sans-serif;
 }
 
 .principal-projetos {
-    background: linear-gradient(45deg, #555555, #000000) !important;
-    min-height: 100vh;
+    background: linear-gradient(60deg, var(--main-cinza), var(--main-preto));
+}
+
+.projetos {
+    margin: 75px;
 }
 
 .card-largura {
@@ -17,7 +29,7 @@
 }
 
 .card:hover {
-    border-color: #8D4729;
-    color: #093657;
-    box-shadow: 5px 5px 20px #03172F;
+    border-color: var(--main-azul);
+    color: var(--main-branco);
+    box-shadow: 5px 5px 20px var(--sombra);
 }

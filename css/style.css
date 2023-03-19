@@ -1,5 +1,18 @@
+:root {
+    --main-cinza: #4E4D4E;
+    --main-preto: #242023;
+    --main-branco: #F0F2F2;
+    --main-azul: #049DBF;
+    --bt-azul: #194759;
+    --sombra: #03172F;
+}
+
 .body {
     font-family: 'Source Code Pro', 'Montserrat', 'monospace', 'sans-serif';
+}
+
+.nav-item {
+    margin: 10px;
 }
 
 .nav--link:hover {
@@ -7,83 +20,102 @@
 }
 
 .principal {
-    background: linear-gradient(45deg, #555555, #000000) !important;
+    background: linear-gradient(60deg, var(--main-cinza),
+            var(--main-preto));
     display: grid;
     grid-auto-columns: 1fr;
-    min-height: 100vh;
 }
 
-/*texto*/
-.text {
-    text-shadow: 2.5px 3px 2px #03172F;
-    text-align: justify;
-    color: #FFE7B5;
+.apresentacao {
+    padding: 48px 0 0 83px;
 }
 
-.text-principal {
-    text-shadow: 2.5px 3px 2px #03172F;
+.citacao {
+    margin: 48px 0 0 100px;
+}
+
+.text-titulo {
+    text-shadow: 2.5px 3px 2px var(--sombra);
     font-family: 'Source Code Pro';
     font-weight: bolder;
-    color: #D76300;
+    color: var(--main-azul);
     box-sizing: border-box;
 }
 
 .text-secundario {
-    color: #458C91;
-    text-shadow: 2.5px 2px 2px #03172F;
-    font-family: 'Montserrat';
+    text-shadow: 2.5px 2px 2px var(--sombra);
+    font-family: 'Source Code Pro';
+    font-size: 16px;
+    font-weight: lighter;
+    color: var(--main-branco);
 }
 
 .text-link:hover {
-    color: #D76300;
-}
-
-.apresentacao {
-    margin: 60px 60px 10px 60px;
+    color: var(--main-azul);
 }
 
 .sobre {
-    margin: 2.6rem 5rem;
+    text-align: start;
+    margin: 4px 40px;
+    padding: 48px 0 0 48px;
+    font-size: 20px;
+}
 
+.text-sobre {
+    text-shadow: 2px 2px 2px var(--sombra);
+    color: var(--main-branco);
+    font-family: 'Montserrat';
+}
+
+.tecnologias {
+    padding-top: 30px;
 }
 
 .contato {
     text-align: start;
-    margin: 0.28rem 2.5rem;
+    margin: 0 0 0 40px;
+    padding: 48px;
 }
 
 .github-icon {
     color: #333;
     font-weight: bold;
     font-size: 22px;
+    font-family: 'Montserrat';
 }
 
 .email-icon {
     color: #0489c9;
     font-weight: bold;
     font-size: 22px;
+    font-family: 'Montserrat';
 }
 
 footer {
     position: absolute;
     width: 100%;
-    background-color: black !important;
+    background-color: var(--main-preto);
     padding: 1.125rem 0;
     text-align: center;
-}
-
-.copyright {
-    color: #FFFFFF;
-    font-size: 11p;
-    margin: 20px 0 0;
-    font-family: 'inter';
+    color: var(--main-branco);
 }
 
 @media screen and (max-device-width: 900px) {
 
+    .apresentacao {
+        padding: 50px 0 0 50px;
+    }
+
+    .citacao {
+        margin: 48px 0 0 0;
+    }
+
     .sobre {
         text-align: left;
-        margin: 2.6rem 1.8rem;
+        padding: 50px 0 0 4px;
+    }
 
+    .contato {
+        margin: 0;
     }
 }
