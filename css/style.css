@@ -36,7 +36,7 @@
 
 .text-titulo {
     text-shadow: 2.5px 3px 2px var(--sombra);
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', sans-serif;
     font-weight: bolder;
     color: var(--main-azul);
     box-sizing: border-box;
@@ -44,7 +44,7 @@
 
 .text-secundario {
     text-shadow: 2.5px 2px 2px var(--sombra);
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', sans-serif;
     font-size: 16px;
     font-weight: lighter;
     color: var(--main-branco);
@@ -64,7 +64,7 @@
 .text-sobre {
     text-shadow: 2px 2px 2px var(--sombra);
     color: var(--main-branco);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .tecnologias {
@@ -77,18 +77,11 @@
     padding: 48px;
 }
 
-.github-icon {
-    color: #333;
+.icon {
+    color: var(--main-azul);
     font-weight: bold;
     font-size: 22px;
-    font-family: 'Montserrat';
-}
-
-.email-icon {
-    color: #0489c9;
-    font-weight: bold;
-    font-size: 22px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {

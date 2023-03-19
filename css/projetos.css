@@ -19,6 +19,16 @@
     margin: 75px;
 }
 
+.botao {
+    background-color: var(--bt-azul);
+    color: var(--main-branco) !important;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+.botao-link:hover {
+    transform: scale(1.1);
+}
+
 .card-largura {
     max-width: 19rem !important;
 }
