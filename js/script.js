@@ -13,7 +13,7 @@ function escrever() {
     if (i === letras.length) {
       apagando = true;
       barra.classList.add('piscar');
-      setTimeout(apagar, 1000);
+      setTimeout(apagar, 2000);
     }
   }
 }

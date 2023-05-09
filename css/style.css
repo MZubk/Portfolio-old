@@ -1,6 +1,6 @@
 :root {
-    --main-cinza: #4E4D4E;
-    --main-preto: #242023;
+    --main-cinza: #13141f;
+    --main-preto: #0a0b11;
     --main-branco: #F0F2F2;
     --main-azul: #049DBF;
     --bt-azul: #194759;
@@ -8,7 +8,7 @@
 }
 
 .body {
-    font-family: 'FiraCode', 'Montserrat', 'sans-serif';
+    font-family: 'FiraCode', 'sans-serif';
 }
 
 .nav-item {
@@ -20,7 +20,7 @@
 }
 
 .principal {
-    background: linear-gradient(60deg, var(--main-cinza),
+    background: linear-gradient(5deg, var(--main-cinza),
             var(--main-preto));
     display: grid;
     grid-auto-columns: 1fr;
@@ -95,7 +95,7 @@
 }
 
 .boostrap {
-    color: #563d7c;
+    color: #a474ee;
 }
 
 
