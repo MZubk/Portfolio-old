@@ -8,7 +8,7 @@
 }
 
 .body {
-    font-family: 'Source Code Pro', 'Montserrat', 'monospace', 'sans-serif';
+    font-family: 'FiraCode', 'Montserrat', 'sans-serif';
 }
 
 .nav-item {
@@ -58,7 +58,7 @@
 
 .text-titulo {
     text-shadow: 2.5px 3px 2px var(--sombra);
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'FiraCode', sans-serif;
     font-weight: bolder;
     color: var(--main-azul);
     box-sizing: border-box;
@@ -66,9 +66,8 @@
 
 .text-secundario {
     text-shadow: 2.5px 2px 2px var(--sombra);
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'FiraCode', sans-serif;
     font-size: 16px;
-    font-weight: lighter;
     color: var(--main-branco);
 }
 
@@ -103,7 +102,7 @@
 .text-sobre {
     text-shadow: 2px 2px 2px var(--sombra);
     color: var(--main-branco);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'FiraCode', sans-serif;
 }
 
 .contato {

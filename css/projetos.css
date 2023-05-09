@@ -8,7 +8,7 @@
 }
 
 .body {
-    font-family: 'Source Code Pro', 'Montserrat', monospace, sans-serif;
+    font-family: 'FiraCode', 'Montserrat', monospace, sans-serif;
 }
 
 .principal-projetos {
@@ -22,7 +22,7 @@
 .botao {
     background-color: var(--bt-azul);
     color: var(--main-branco) !important;
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'FiraCode', sans-serif;
 }
 
 .botao-link:hover {
