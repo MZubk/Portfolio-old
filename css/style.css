@@ -30,9 +30,31 @@
     padding: 48px 0 0 83px;
 }
 
-.citacao {
-    margin: 48px 0 0 100px;
-}
+#emoji {
+    transition: transform 0.5s;
+  }
+  
+  .tecnologias {
+    padding: 48px 48px 0 0;
+  }
+  
+  .barra {
+    animation: piscar-infinite infinite;
+    color: var(--main-branco);
+  }
+  
+  @keyframes piscar-infinite {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
+
 
 .text-titulo {
     text-shadow: 2.5px 3px 2px var(--sombra);
@@ -61,20 +83,33 @@
     font-size: 20px;
 }
 
+.html {
+    color: #e34f26;
+}
+
+.css {
+    color: #1572b6;
+}
+
+.js {
+    color: #f7df1e;
+}
+
+.boostrap {
+    color: #563d7c;
+}
+
+
 .text-sobre {
     text-shadow: 2px 2px 2px var(--sombra);
     color: var(--main-branco);
     font-family: 'Montserrat', sans-serif;
 }
 
-.tecnologias {
-    padding-top: 30px;
-}
-
 .contato {
     text-align: start;
     margin: 0 0 0 40px;
-    padding: 48px;
+    padding: 0 0 7px 48px;
 }
 
 .icon {
@@ -95,7 +130,8 @@ footer {
 
 @media screen and (max-device-width: 900px) {
 
-    .apresentacao {
+    .apresentacao,
+    .tecnologias {
         padding: 50px 0 0 50px;
     }
 
