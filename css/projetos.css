@@ -1,12 +1,3 @@
-:root {
-    --main-cinza: #4E4D4E;
-    --main-preto: #242023;
-    --main-branco: #F0F2F2;
-    --main-azul: #049DBF;
-    --bt-azul: #194759;
-    --sombra: #03172F;
-}
-
 .body {
     font-family: 'FiraCode', 'Montserrat', monospace, sans-serif;
 }

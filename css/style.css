@@ -1,7 +1,7 @@
 :root {
-    --main-cinza: #13141f;
-    --main-preto: #0a0b11;
-    --main-branco: #F0F2F2;
+    --main-cinza: #181928;
+    --main-preto: #13141f;
+    --main-branco: #FEFEFE;
     --main-azul: #049DBF;
     --bt-azul: #194759;
     --sombra: #03172F;
@@ -19,9 +19,33 @@
     transform: scale(1.1);
 }
 
+.navbar {
+    background-color: var(--main-preto);
+    text-decoration: none;
+    font-family: 'FiraCode';
+}
+
+.btn {
+    
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'FiraCode';
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    background-color: var(--bt-azul);
+    color: var(--main-branco);
+    
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: var(--main-branco);
+}
+
 .principal {
-    background: linear-gradient(5deg, var(--main-cinza),
-            var(--main-preto));
+    background: linear-gradient(60deg, var(--main-preto), var(--main-cinza));
     display: grid;
     grid-auto-columns: 1fr;
 }
@@ -32,28 +56,30 @@
 
 #emoji {
     transition: transform 0.5s;
-  }
-  
-  .tecnologias {
+}
+
+.tecnologias {
     padding: 48px 48px 0 0;
-  }
-  
-  .barra {
+}
+
+.barra {
     animation: piscar-infinite infinite;
     color: var(--main-branco);
-  }
-  
-  @keyframes piscar-infinite {
+}
+
+@keyframes piscar-infinite {
     0% {
-      opacity: 1;
+        opacity: 1;
     }
+
     50% {
-      opacity: 0.5;
+        opacity: 0.5;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  } 
+}
 
 
 .text-titulo {
@@ -121,7 +147,7 @@
 footer {
     position: absolute;
     width: 100%;
-    background-color: var(--main-preto);
+    background-color: var(--main-cinza);
     padding: 1.125rem 0;
     text-align: center;
     color: var(--main-branco);
