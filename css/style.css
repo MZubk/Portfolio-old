@@ -1,3 +1,5 @@
+@import url(./projetos.css);
+
 :root {
     --main-cinza: #181928;
     --main-preto: #13141f;
@@ -5,10 +7,12 @@
     --main-azul: #049DBF;
     --bt-azul: #194759;
     --sombra: #03172F;
+    --fonte-principal: 'FiraCode';
+    --azul-degrade: linear-gradient(60deg, var(--main-preto), var(--main-cinza));
 }
 
 .body {
-    font-family: 'FiraCode', 'sans-serif';
+    font-family: var(--fonte-principal);
 }
 
 .nav-item {
@@ -22,21 +26,20 @@
 .navbar {
     background-color: var(--main-preto);
     text-decoration: none;
-    font-family: 'FiraCode';
+    font-family: var(--fonte-principal);
 }
 
 .btn {
-    
+
     border-radius: 10px;
     font-size: 18px;
-    font-family: 'FiraCode';
     font-weight: bold;
     padding: 10px;
     margin: 10px;
     align-items: center;
     background-color: var(--bt-azul);
     color: var(--main-branco);
-    
+
 }
 
 .btn:hover {
@@ -45,7 +48,7 @@
 }
 
 .principal {
-    background: linear-gradient(60deg, var(--main-preto), var(--main-cinza));
+    background: var(--azul-degrade);
     display: grid;
     grid-auto-columns: 1fr;
 }
@@ -84,7 +87,6 @@
 
 .text-titulo {
     text-shadow: 2.5px 3px 2px var(--sombra);
-    font-family: 'FiraCode', sans-serif;
     font-weight: bolder;
     color: var(--main-azul);
     box-sizing: border-box;
@@ -92,7 +94,6 @@
 
 .text-secundario {
     text-shadow: 2.5px 2px 2px var(--sombra);
-    font-family: 'FiraCode', sans-serif;
     font-size: 16px;
     color: var(--main-branco);
 }
@@ -128,7 +129,10 @@
 .text-sobre {
     text-shadow: 2px 2px 2px var(--sombra);
     color: var(--main-branco);
-    font-family: 'FiraCode', sans-serif;
+}
+
+.secao__contato {
+    display: flex;
 }
 
 .contato {
@@ -141,7 +145,6 @@
     color: var(--main-azul);
     font-weight: bold;
     font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 footer {

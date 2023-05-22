@@ -1,11 +1,3 @@
-.body {
-    font-family: 'FiraCode', 'Montserrat', monospace, sans-serif;
-}
-
-.principal-projetos {
-    background: linear-gradient(60deg, var(--main-cinza), var(--main-preto));
-}
-
 .projetos {
     margin: 75px;
 }
@@ -13,7 +5,6 @@
 .botao {
     background-color: var(--bt-azul);
     color: var(--main-branco) !important;
-    font-family: 'FiraCode', sans-serif;
 }
 
 .botao-link:hover {
