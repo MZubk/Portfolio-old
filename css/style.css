@@ -8,7 +8,7 @@
     --bt-azul: #194759;
     --sombra: #03172F;
     --fonte-principal: 'FiraCode';
-    --azul-degrade: linear-gradient(60deg, var(--main-preto), var(--main-cinza));
+    --azul-degrade: linear-gradient(60deg, #13141f, #181928);
 }
 
 .body {
